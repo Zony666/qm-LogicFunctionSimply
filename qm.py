@@ -140,6 +140,8 @@ class qm():
                             if self.irr:
                                 if not set(minc[0])<set(self.irr):
                                     primeterm.append(minc[0:2])
+                            else:
+                                primeterm.append(minc[0:2])
         # print(primeterm)
         allprimin=[]
         for t in primeterm:
